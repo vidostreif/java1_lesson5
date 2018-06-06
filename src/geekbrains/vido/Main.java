@@ -19,6 +19,12 @@ public class Main {
             }
         }
 
+        for (Collaborator collaborator: collaboratorArray) {
+            if (collaborator.getAge() < 40) {
+                collaborator.info();
+            }
+        }
+
 
     }
 }
